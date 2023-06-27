@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1d5e2;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #f00707;
+   
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 50%;
+    border: 2px solid rgb(248, 6, 6);
+    padding: 20px;
+    border-radius: 30px;
+  }
+  
+  .projected-usage label,
+  .airtime label,
+  .button button,
+  .remaining-airtime label {
+    display: inline-block;
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  .projected-usage input,
+  .airtime input {
+    display: inline-block;
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  .button button {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+  }
+  
+  .remaining-airtime span {
+    font-weight: bold;
+    border-radius: 10px;
+  }

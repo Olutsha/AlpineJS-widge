@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items Over 20</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Items over 20</h1>
+    <form>
+		<button onclick="displayAllData()">Show All Data</button>
+		<button onclick="displayResults()">Find Items Over 20</button>
+		<div id="results"></div>  
+	</form>
+    <h1>Enough Airtime</h1>
+    <form>
+        <div class="projected-usage">
+          <label for="projectedUsage">Projected Usage:</label>
+          <input type="text" id="projectedUsage" name="projectedUsage"><br><br>
+        </div>
+    
+        <div class="airtime">
+          <label for="airtime">Amount of Airtime Available:</label>
+          <input type="text" id="airtime" name="airtime"><br><br>
+        </div>
+    
+        <div class="button">
+          <button type="button" onclick="calculateAirtime()">ENTER</button><br><br>
+        </div>
+    
+        <div class="remaining-airtime">
+          <label for="remainingAirtime">Remaining Airtime:</label>
+          <span id="remainingAirtime"></span><br><br>
+        </div>
+      </form>
+      <h1>Transport Fee Calculator</h1>
+      <form>
+        <div class="time">
+          <label for="morning">Morning:</label>
+          <input type="radio" id="morning" name="time" value="morning"><br><br>
+    
+          <label for="afternoon">Afternoon:</label>
+          <input type="radio" id="afternoon" name="time" value="afternoon"><br><br>
+    
+          <label for="nightshift">Night Shift:</label>
+          <input type="radio" id="nightshift" name="time" value="nightshift"><br><br>
+        </div>
+    
+        <div class="button">
+          <button type="button" onclick="calculateFee()">ENTER</button><br><br>
+        </div>
+    
+        <div class="fee">
+          <label for="totalFee">Total Fee:</label>
+          <input type="text" id="totalFee" name="totalFee" readonly><br><br>
+        </div>
+      </form>
+
+      <h1>Phone Bill Calculator</h1>
+      <form>
+        <div class="call">
+          <label for="callsAndSms">Calls and SMS:</label>
+          <input type="text" id="callsAndSms" name="callsAndSms"><br><br>
+        </div>
+    
+        <div class="button">
+          <button type="button" onclick="totalPhoneBill()">ENTER</button><br><br>
+        </div>
+    
+        <div class="bill">
+          <label for="totalBill">Total Bill:</label>
+          <input type="text" id="totalBill" name="totalBill" readonly><br><br>
+        </div>
+      </form>
+       
+    
+
+    <script src="index.js" defer ></script
+</body>
+</html>
